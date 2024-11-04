@@ -5,7 +5,8 @@
 ## The website we chose is the <a href="https://www.casastudioacademy.com/">Cincinnati Actor's Studio & Academy</a>.
 
 
-# Sitemap for Casa Studio Academy
+# Original Sitemap for Casa Studio Academy 
+#### Our website is hosted within the code section of this repository.
 
 - [Homepage](https://www.casastudioacademy.com/)
 - [About](https://www.casastudioacademy.com/about)
