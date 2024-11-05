@@ -1,0 +1,150 @@
+.gradient {
+    background: url("images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.7);
+    text-align: center;
+    font-size: 46px;
+}
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
+.content {
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+
+
+.about-container {
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.9);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    color: rgb(255, 255, 255);
+}
+
+.audition-container {
+    justify-content: center;
+    align-items: center;
+    background: rgba(2, 29, 105, 0.9);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    color: rgb(255, 255, 255);
+}
+
+.wnew-container {
+    justify-content: center;
+    align-items: center;
+    background: rgba(149, 0, 149, 0.9);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    color: rgb(255, 255, 255);
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 0px 0;
+    text-align: center;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "DM Serif Display", serif;
+    padding: 10px 15px;
+}
+
+/* Dropdown styling */
+.dropdown .dropbtn {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    min-width: 200px;
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
