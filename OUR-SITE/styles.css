@@ -14,6 +14,14 @@
     padding: 0;
 }
 
+.opportunitiesBG {
+    background: url("images/opportunitiesBG.webp") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 
 .header {
     padding: 10px;
