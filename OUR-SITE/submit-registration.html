@@ -25,12 +25,47 @@
             padding: 7px;
             border-radius: 10px;
         }
+
+        .navbar {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+
+        }
     </style>
 </head>
 
 
 
 <body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PRODUCTIONS</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">SUPPORT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">MORE</a>
+                    <div class="dropdown-content">
+                        <a href="opportunities.html">OPPORTUNITIES</a>
+                        <a href="#">STAFF</a>
+                        <a href="#">STUDIO</a>
+                        <a href="#">SUMMER SEMINAR</a>
+                        <a href="#">SUMMER SERIES</a>
+                        <a href="#">PAST PRODUCTIONS</a>
+                        <a href="#">TESTIMONIALS</a>
+                        <a href="summer-seminar-registration.html">SUMMER SEMINAR REGISTRATION</a>
+                        <a href="#">STUDIO - AUDITION APPLICATION</a>
+                        <a href="#">PREVIOUS ADVERTISERS</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <p>
         <font size="+4">Thank you for submitting!</font>
     </p>
@@ -49,6 +84,8 @@
         <p id="seminar-selection"></p>
         <p id="additional-concerns"></p>
     </div>
+
+
 
     <script>
         function getQueryParams() {
