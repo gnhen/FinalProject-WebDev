@@ -5,8 +5,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Itim&family=Fugaz+One&display=swap');
 </style>
 
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,12 +48,12 @@
         <p class="content itim-regular">Please fill out the form below to register</p>
 
         <div class="form-container dm-serif-text-regular">
-            <form action="/OUR-SITE/submit-registration.html" method="get">
+            <form id="registration-form">
                 <h1>Student Registration Form</h1>
                 <p>
                     <font size="+1">We thank you for your interest in participating in the programs that CASA
                         has to offer! Fill in our
-                        online Student Registration Form below and you will receieve a confirmation email regarding
+                        online Student Registration Form below and you will receive a confirmation email regarding
                         required
                         deposits and calendar of events.</font>
                 </p>
@@ -147,6 +145,15 @@
         }
     </style>
 
+    <script>
+        document.getElementById('registration-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const formData = new FormData(event.target);
+            const params = new URLSearchParams(formData).toString();
+            window.location.href = `submit-registration.html?${params}`;
+        });
+    </script>
 </body>
 
 </html>
