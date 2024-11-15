@@ -1,5 +1,5 @@
 .indexBG {
-    background: url("images/background.jpg") no-repeat center center fixed;
+    background: url("OUR-SITE/images/background.jpg") no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 .contactBG {
-    background: url("images/contactBG.webp") no-repeat center center fixed;
+    background: url("OUR-SITE/images/contactBG.webp") no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     margin: 0;
@@ -15,7 +15,7 @@
 }
 
 .opportunitiesBG {
-    background: url("images/opportunitiesBG.webp") no-repeat center center fixed;
+    background: url("OUR-SITE/images/opportunitiesBG.webp") no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     margin: 0;
