@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="styles.css">
+
+<head>
+    <title>Submit Registration</title>
+    <style>
+        .submitted-data {
+            font-size: 18px;
+            margin-top: 20px;
+            background-color: white;
+            color: black;
+        }
+
+        .submitted-data p {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .bordered-text {
+            color: rgb(255, 255, 255);
+            background-color: black;
+            border: 10px;
+            margin: 5px;
+            padding: 7px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <p>
+        <font size="+4">Thank you for submitting!</font>
+    </p>
+    <div class="submitted-data">
+        <h2>Submitted Information:</h2>
+        <p id="student-first-name"></p>
+        <p id="student-last-name"></p>
+        <p id="parent-name"></p>
+        <p id="current-school"></p>
+        <p id="year-to-graduate"></p>
+        <p id="address"></p>
+        <p id="parents-phone"></p>
+        <p id="student-cell"></p>
+        <p id="email"></p>
+        <p id="secondary-email"></p>
+        <p id="seminar-selection"></p>
+        <p id="additional-concerns"></p>
+    </div>
+
+    <script>
+        function getQueryParams() {
+            const params = {};
+            const queryString = window.location.search.substring(1);
+            const regex = /([^&=]+)=([^&]*)/g;
+            let m;
+            while (m = regex.exec(queryString)) {
+                params[decodeURIComponent(m[1])] = decodeURIComponent(m[2]);
+            }
+            return params;
+        }
+
+        const params = getQueryParams();
+
+        document.getElementById('student-first-name').innerHTML = `Student's First Name: <span class="bordered-text">${params.studentFirstName}</span>`;
+        document.getElementById('student-last-name').innerHTML = `Student's Last Name: <span class="bordered-text">${params.studentLastName}</span>`;
+        document.getElementById('parent-name').innerHTML = `Parent Name(s): <span class="bordered-text">${params.parentName}</span>`;
+        document.getElementById('current-school').innerHTML = `Current School: <span class="bordered-text">${params.currentSchool}</span>`;
+        document.getElementById('year-to-graduate').innerHTML = `Year to Graduate: <span class="bordered-text">${params.yearToGraduate}</span>`;
+        document.getElementById('address').innerHTML = `Address: <span class="bordered-text">${params.address}</span>`;
+        document.getElementById('parents-phone').innerHTML = `Parent's Phone #: <span class="bordered-text">${params.parentsPhone}</span>`;
+        document.getElementById('student-cell').innerHTML = `Student Cell #: <span class="bordered-text">${params.studentCell}</span>`;
+        document.getElementById('email').innerHTML = `Email: <span class="bordered-text">${params.email}</span>`;
+        document.getElementById('secondary-email').innerHTML = `Secondary Email: <span class="bordered-text">${params.secondaryEmail}</span>`;
+        document.getElementById('seminar-selection').innerHTML = `Seminar Selection: <span class="bordered-text">${params.seminarSelection}</span>`;
+        document.getElementById('additional-concerns').innerHTML = `Additional Concerns/Questions: <span class="bordered-text">${params.additionalConcerns}</span>`;
+    </script>
+</body>
+
+</html>

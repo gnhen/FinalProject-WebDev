@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Itim&family=Fugaz+One&display=swap');
+</style>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cincinnati Actor's Studio & Academy</title>
+</head>
+
+<body class="indexBG">
+    <header class="header dm-serif-display-regular">
+        Cincinnati Actor's Studio & Academy<br>
+        <font size="+2" class="dm-serif-display-regular-italic">"Creating Dialogue, Creating Change"</font>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PRODUCTIONS</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">SUPPORT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">MORE</a>
+                    <div class="dropdown-content">
+                        <a href="opportunities.html">OPPORTUNITIES</a>
+                        <a href="#">STAFF</a>
+                        <a href="#">STUDIO</a>
+                        <a href="#">SUMMER SEMINAR</a>
+                        <a href="#">SUMMER SERIES</a>
+                        <a href="#">PAST PRODUCTIONS</a>
+                        <a href="#">TESTIMONIALS</a>
+                        <a href="#">SUMMER SEMINAR REGISTRATION</a>
+                        <a href="#">STUDIO - AUDITION APPLICATION</a>
+                        <a href="#">PREVIOUS ADVERTISERS</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="about-container dm-serif-display-regular-italic">
+        <h1>Summer Seminar Registration!</h1>
+        <p class="content itim-regular">Please fill out the form below to register</p>
+
+        <div class="form-container dm-serif-text-regular">
+            <form action="/OUR-SITE/submit-registration.html" method="get">
+                <h1>Student Registration Form</h1>
+                <p>
+                    <font size="+1">We thank you for your interest in participating in the programs that CASA
+                        has to offer! Fill in our
+                        online Student Registration Form below and you will receieve a confirmation email regarding
+                        required
+                        deposits and calendar of events.</font>
+                </p>
+                <label for="student-first-name">Student's First Name:</label>
+                <input type="text" id="student-first-name" name="studentFirstName" required><br>
+
+                <label for="student-last-name">Student's Last Name:</label>
+                <input type="text" id="student-last-name" name="studentLastName" required><br>
+
+                <label for="parent-name">Parent Name(s):</label>
+                <input type="text" id="parent-name" name="parentName" required><br>
+
+                <label for="current-school">Current School:</label>
+                <input type="text" id="current-school" name="currentSchool" required><br>
+
+                <label for="year-to-graduate">Year to Graduate:</label>
+                <input type="text" id="year-to-graduate" name="yearToGraduate" required><br>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required><br>
+
+                <label for="parents-phone">Parent's Phone #:</label>
+                <input type="tel" id="parents-phone" name="parentsPhone" required><br>
+
+                <label for="student-cell">Student Cell #:</label>
+                <input type="tel" id="student-cell" name="studentCell" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="secondary-email">Secondary Email:</label>
+                <input type="email" id="secondary-email" name="secondaryEmail"><br>
+
+                <label>Seminar Selection:</label><br>
+                <input type="radio" id="week-one" name="seminarSelection" value="weekOne" required>
+                <label for="week-one">Summer Seminar - Week One</label><br>
+                <input type="radio" id="week-two" name="seminarSelection" value="weekTwo">
+                <label for="week-two">Summer Seminar - Week Two</label><br>
+                <input type="radio" id="both-weeks" name="seminarSelection" value="bothWeeks">
+                <label for="both-weeks">Summer Seminar - BOTH Weeks</label><br>
+
+                <label for="additional-concerns">Additional Concerns/Questions:</label><br>
+                <textarea id="additional-concerns" name="additionalConcerns"></textarea><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <style>
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            color: black;
+            text-align: left;
+        }
+
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-container label {
+            margin-top: 10px;
+        }
+
+        .form-container input,
+        .form-container textarea {
+            margin-top: 5px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .form-container input[type="submit"] {
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+</body>
+
+</html>
