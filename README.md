@@ -26,7 +26,7 @@ Open this link: https://gnhen.github.io/FinalProject-WebDev/OUR-SITE/index.html
 - [Alumni](https://www.casastudioacademy.com/alumni) -- Leo 🕖
 - [Testimonials](https://www.casastudioacademy.com/testimonials) -- Leo 🕖
 - [Opportunities](https://www.casastudioacademy.com/opportunities) -- Grant ✅
-- [Summer Seminar Registration](https://www.casastudioacademy.com/summer-seminar-registration) -- Grant 🕖
+- [Summer Seminar Registration](https://www.casastudioacademy.com/summer-seminar-registration) -- Grant ✅
 - [Studio Auditions](https://www.casastudioacademy.com/studio-auditions) -- Grant 🕖
 - [Support](https://www.casastudioacademy.com/support) -- Grant 🕖
 - [Previous Advertisors](https://www.casastudioacademy.com/previous-advertisors) -- Grant 🕖
