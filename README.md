@@ -2,7 +2,9 @@
 ### Project created by Grant Hendricks, Leo Langley, and Stephen Kroeger
 
 # Usage
-Open this link: [https://gnhen.github.io/FinalProject-WebDev/OUR-SITE/index.html](https://gnhen.github.io/FinalProject-WebDev/OUR-SITE/index.html)
+Open this page in GitHub Pages!
+
+[https://gnhen.github.io/FinalProject-WebDev/](https://gnhen.github.io/FinalProject-WebDev/)
 
 
 # Update the emoji next to your site in this README when completing a page!!!
