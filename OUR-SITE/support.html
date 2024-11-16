@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Itim&family=Fugaz+One&display=swap');
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cincinnati Actor's Studio & Academy</title>
+    <style>
+        .support-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .support-text {
+            flex: 1;
+            text-align: right;
+            margin-right: 20px;
+            margin-left: 30px;
+            color: black;
+        }
+
+        .donate-button {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .donate-button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        .popup.show {
+            display: block;
+        }
+
+        .popup-content {
+            text-align: center;
+            color: black;
+        }
+
+        .close-button {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+            font-size: 24px;
+            color: #333;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+        }
+
+        .close-button:hover {
+            background-color: #eee;
+        }
+
+        .email-button {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+
+        .email-button:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="supportBG">
+    <header class="header dm-serif-display-regular">
+        Cincinnati Actor's Studio & Academy<br>
+        <font size="+2" class="dm-serif-display-regular-italic">"Creating Dialogue, Creating Change"</font>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PRODUCTIONS</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="support.html">SUPPORT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">MORE</a>
+                    <div class="dropdown-content">
+                        <a href="opportunities.html">OPPORTUNITIES</a>
+                        <a href="#">STAFF</a>
+                        <a href="#">STUDIO</a>
+                        <a href="#">SUMMER SEMINAR</a>
+                        <a href="#">SUMMER SERIES</a>
+                        <a href="#">PAST PRODUCTIONS</a>
+                        <a href="#">TESTIMONIALS</a>
+                        <a href="summer-seminar-registration.html">SUMMER SEMINAR REGISTRATION</a>
+                        <a href="#">STUDIO - AUDITION APPLICATION</a>
+                        <a href="#">PREVIOUS ADVERTISERS</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="about-container dm-serif-display-regular-italic">
+        <h1>Support CASA</h1>
+        <p class="content itim-regular">Donate today to help support our educational programming!</p>
+
+
+        <div class="support-container">
+            <button class="donate-button" onclick="showPopup()">Donate</button>
+            <p class="support-text dm-serif-text-regular">
+                Every little bit helps! Your contribution can help provide theatrical training for students as well as
+                theatrical opportunities for all artists.
+            </p>
+        </div>
+        <br>
+
+        <div id="donatePopup" class="popup">
+            <span class="close-button" onclick="hidePopup()">&times;</span>
+            <div class="popup-content">
+                <p>Thank you for your interest! This feature is coming soon!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="about-container dm-serif-display-regular-italic" style="background-color: rgba(95, 0, 0, 0.8);">
+        <h1>Advertise With Us!</h1>
+        <p class="content itim-regular">
+            By purchasing a program ad or sponsorship, you can promote your business to 500 potential audience members
+            from the greater Cincinnati area while helping a growing educational artistic endeavor in Cincinnati. If you
+            are interested in advertising with us, or would like more information about Cincinnati Actor's Studio &
+            Academy, please feel free to contact us.
+        </p>
+
+        <h2>Advertisement Type & Price</h2>
+        <div class="ad-pricing-table">
+            <style>
+                .ad-pricing-table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-top: 20px;
+                }
+
+                .ad-row {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 15px;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                }
+
+                .ad-type {
+                    flex: 3;
+                }
+
+                .ad-price {
+                    flex: 1;
+                    text-align: right;
+                    font-weight: bold;
+                }
+            </style>
+
+            <div class="ad-row">
+                <div class="ad-type">Business listing in program + link to company website on CASA website</div>
+                <div class="ad-price">$25.00</div>
+            </div>
+
+            <div class="ad-row">
+                <div class="ad-type">Quarter-page program ad + link to company website on CASA website</div>
+                <div class="ad-price">$50.00</div>
+            </div>
+
+            <div class="ad-row">
+                <div class="ad-type">Half-page program ad + link to company website on CASA website</div>
+                <div class="ad-price">$75.00</div>
+            </div>
+
+            <div class="ad-row">
+                <div class="ad-type">Full-page program ad + link to company website on CASA website</div>
+                <div class="ad-price">$100.00</div>
+            </div>
+
+            <div class="ad-row">
+                <div class="ad-type">Sponsorship: Billing in curtain speech + full-page ad + link to company website on
+                    CASA website</div>
+                <div class="ad-price">$150.00</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-container dm-serif-display-regular-italic" style="background-color: rgba(27, 2, 110, 0.8);">
+        <h1>Join Our Community</h1>
+        <p class="content itim-regular">
+            Cincinnati Actor's Studio & Academy (CASA) is a not-for-profit theatre company working to create change by
+            creating dialogue.
+        </p>
+
+        <br>
+
+        <p class="content itim-regular">
+            However, to make these unique programs run and provide the performances opportunities that we do, we need
+            YOUR help.
+        </p>
+
+        <br>
+
+        <p class="content itim-regular">
+            It takes a community to create change, and we rely on our community to keep our doors open.
+        </p>
+
+        <br>
+
+        <p class="content itim-regular">
+            <button class="email-button"
+                onclick="window.location.href='mailto:casastudioacademy@gmail.com?subject=I\'d love to be a CASA donor!'">
+                Consider donating today!
+            </button>
+        </p>
+    </div>
+
+    <script>
+        function showPopup() {
+            document.getElementById('donatePopup').classList.add('show');
+        }
+
+        function hidePopup() {
+            document.getElementById('donatePopup').classList.remove('show');
+        }
+    </script>
+</body>
+
+</html>

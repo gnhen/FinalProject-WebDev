@@ -30,6 +30,14 @@
     padding: 0;
 }
 
+.supportBG {
+    background: url("https://i.ibb.co/1QDZgby/IMG-3756.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 
 .header {
     padding: 10px;
