@@ -1,5 +1,5 @@
 .indexBG {
-    background: url("https://raw.githubusercontent.com/gnhen/FinalProject-WebDev/refs/heads/main/OUR-SITE/IMAGES/background.jpg?token=GHSAT0AAAAAACZD25MC3SU6YZXAKPSSZLGUZZX2WKQ") no-repeat center center fixed;
+    background: url("https://i.ibb.co/zmm0cSx/background.jpg") no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 .contactBG {
-    background: url("https://raw.githubusercontent.com/gnhen/FinalProject-WebDev/refs/heads/main/OUR-SITE/IMAGES/contactBG.webp?token=GHSAT0AAAAAACZD25MCQDKYJW5RLIOQCNAEZZX26JQ") no-repeat center center fixed;
+    background: url("https://i.ibb.co/BzTBBw7/contact-BG.webp") no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     margin: 0;
@@ -15,7 +15,7 @@
 }
 
 .opportunitiesBG {
-    background: url("https://raw.githubusercontent.com/gnhen/FinalProject-WebDev/refs/heads/main/OUR-SITE/IMAGES/opportunitiesBG.webp?token=GHSAT0AAAAAACZD25MCFP2OVQWE5ZA3BY36ZZX26YQ") no-repeat center center fixed;
+    background: url("https://i.ibb.co/nsvT0sN/opportunities-BG.webp") no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     margin: 0;
