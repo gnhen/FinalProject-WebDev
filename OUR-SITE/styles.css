@@ -46,6 +46,14 @@
     padding: 0;
 }
 
+.previousBG {
+    background-color: #5d5d5d;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 
 .header {
     padding: 10px;
