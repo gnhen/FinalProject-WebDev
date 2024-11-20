@@ -38,6 +38,14 @@
     padding: 0;
 }
 
+.auditionsBG {
+    background: url("https://i.ibb.co/ZVcJ3M5/e35fdb-782e05191ef54698afbf0fcc08530f2d-mv2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 
 .header {
     padding: 10px;

@@ -10,9 +10,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Cincinnati Actor's Studio & Academy</title>
+    <style>
+        .support-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .support-text {
+            flex: 1;
+            text-align: right;
+            margin-right: 20px;
+            margin-left: 30px;
+            color: black;
+        }
+
+        .donate-button {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .donate-button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        .popup.show {
+            display: block;
+        }
+
+        .popup-content {
+            text-align: center;
+            color: black;
+        }
+
+        .close-button {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+            font-size: 24px;
+            color: #333;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+        }
+
+        .close-button:hover {
+            background-color: #eee;
+        }
+
+        .email-button {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+
+        .email-button:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
 </head>
 
-<body class="signupBG">
+<body class="auditionsBG">
     <header class="header dm-serif-display-regular">
         Cincinnati Actor's Studio & Academy<br>
         <font size="+2" class="dm-serif-display-regular-italic">"Creating Dialogue, Creating Change"</font>
@@ -41,61 +135,60 @@
                 </li>
             </ul>
         </nav>
-
     </header>
-    <div class="about-container dm-serif-display-regular-italic">
-        <h1>Summer Seminar Registration!</h1>
-        <p class="content itim-regular">Please fill out the form below to register</p>
+    <div class="about-container dm-serif-display-regular">
+        <h1>Acting Studio</h1>
 
-        <div class="form-container dm-serif-text-regular">
+
+        <div class="form-container dm-serif-text-regular"
+            style="background-color: white; color: black; text-align:left;">
             <form id="registration-form">
-                <h1>Student Registration Form</h1>
-                <p>
-                    <font size="+1">We thank you for your interest in participating in the programs that CASA
-                        has to offer! Fill in our
-                        online Student Registration Form below and you will receive a confirmation email regarding
-                        required
-                        deposits and calendar of events.</font>
+                <h1 style="text-align: center;">Audition Registration Form</h1>
+                <p style="text-align: center;">
+                    <font size="+1">
+                        We thank you for your interest in auditioning for CASA's Acting Studio! Fill in our online
+                        Student Registration Form below and you will receive a confirmation email for your registration
+                        for Saturday, August 18th, 2024.
+                    </font>
                 </p>
                 <label for="student-first-name">Student's First Name:</label>
                 <input type="text" id="student-first-name" name="studentFirstName" required><br>
-
+                <br>
                 <label for="student-last-name">Student's Last Name:</label>
                 <input type="text" id="student-last-name" name="studentLastName" required><br>
-
-                <label for="parent-name">Parent Name(s):</label>
-                <input type="text" id="parent-name" name="parentName" required><br>
-
+                <br>
+                <label for="parent-name">Parent Name(s) [If under 18]:</label>
+                <input type="text" id="parent-name" name="parentName"><br>
+                <br>
                 <label for="current-school">Current School:</label>
                 <input type="text" id="current-school" name="currentSchool" required><br>
-
+                <br>
                 <label for="year-to-graduate">Year to Graduate:</label>
                 <input type="number" id="year-to-graduate" name="yearToGraduate" min="2000" required><br>
-
+                <br>
                 <label for="address">Address:</label>
                 <input type="text" id="address" name="address" required><br>
-
-                <label for="parents-phone">Parent's Phone #:</label>
-                <input type="tel" id="parents-phone" name="parentsPhone" pattern="^(\d{10}|\d{3}-\d{3}-\d{4})$"
-                    required><br>
-
+                <br>
+                <label for="parents-phone">Parent's Phone # (if under 18):</label>
+                <input type="tel" id="parents-phone" name="parentsPhone" pattern="^(\d{10}|\d{3}-\d{3}-\d{4})$"><br>
+                <br>
                 <label for="student-cell">Student Cell #:</label>
                 <input type="tel" id="student-cell" name="studentCell" pattern="^(\d{10}|\d{3}-\d{3}-\d{4})$"
                     required><br>
-
+                <br>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required><br>
-
+                <br>
                 <label for="secondary-email">Secondary Email:</label>
                 <input type="email" id="secondary-email" name="secondaryEmail"><br>
-
-                <label>Seminar Selection:</label><br>
+                <br>
+                <label>I have read the AUDITION REQUIREMENTS on the Acting Studio info page</label><br>
                 <input type="radio" id="week-one" name="seminarSelection" value="weekOne" required>
-                <label for="week-one">Summer Seminar - Week One</label><br>
+                <label for="week-one">Yes</label><br>
                 <input type="radio" id="week-two" name="seminarSelection" value="weekTwo">
-                <label for="week-two">Summer Seminar - Week Two</label><br>
+                <label for="week-two">Yes!!</label><br>
                 <input type="radio" id="both-weeks" name="seminarSelection" value="bothWeeks">
-                <label for="both-weeks">Summer Seminar - BOTH Weeks</label><br>
+                <label for="both-weeks">Yes, read it twice</label><br>
 
                 <label for="additional-concerns">Additional Concerns/Questions:</label><br>
                 <textarea id="additional-concerns" name="additionalConcerns"></textarea><br>
@@ -103,49 +196,10 @@
                 <input type="submit" value="Submit">
             </form>
         </div>
+
     </div>
 
-    <style>
-        .form-container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-            color: black;
-            text-align: left;
-        }
 
-        .form-container form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .form-container label {
-            margin-top: 10px;
-        }
-
-        .form-container input,
-        .form-container textarea {
-            margin-top: 5px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            width: 100%;
-        }
-
-        .form-container input[type="submit"] {
-            margin-top: 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        .form-container input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-    </style>
 
     <script>
         document.getElementById('registration-form').addEventListener('submit', function (event) {
