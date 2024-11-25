@@ -17,7 +17,7 @@ Open this page in GitHub Pages!
 #### Our website is hosted within the code section of this repository.
 
 - [Homepage](https://www.casastudioacademy.com/) -- Grant ✅
-- [About](https://www.casastudioacademy.com/about) -- Stephen 🕖
+- [About](https://www.casastudioacademy.com/about) -- Stephen ✅
 - [Acting Studio](https://www.casastudioacademy.com/acting-studio) -- Stephen 🕖
 - [Summer Seminar](https://www.casastudioacademy.com/summer-seminar) -- Stephen 🕖
 - [Staff](https://www.casastudioacademy.com/staff) -- Stephen 🕖
