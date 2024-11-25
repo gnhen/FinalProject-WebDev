@@ -63,7 +63,7 @@
 }
 
 .summer-seminarBG {
-    background: url("https://static.wixstatic.com/media/e35fdb_77313b79a8654d5381ef6df069debfd0~mv2.jpg/v1/fill/w_960,h_540,al_c,q_85,enc_auto/e35fdb_77313b79a8654d5381ef6df069debfd0~mv2.jpg") no-repeat center center fixed;
+    background-image: url("https://static.wixstatic.com/media/e35fdb_77313b79a8654d5381ef6df069debfd0~mv2.jpg/v1/fill/w_960,h_540,al_c,q_85,enc_auto/e35fdb_77313b79a8654d5381ef6df069debfd0~mv2.jpg") no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     margin: 0;
