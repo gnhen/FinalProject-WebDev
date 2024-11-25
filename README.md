@@ -33,7 +33,7 @@ Open this page in GitHub Pages!
 - [Support](https://www.casastudioacademy.com/support) -- Grant ✅
 - [Previous Advertisors](https://www.casastudioacademy.com/previous-advertisors) -- Grant ✅
 - [Contact](https://www.casastudioacademy.com/contact) -- Grant ✅
-- [File: PDF 1](https://www.casastudioacademy.com/_files/ugd/e35fdb_2cace51e7a154a7e9f0a9ee754c2183f.pdf) ✅ (not too sure about adding these. If you find a spot for them, then definitely include them. Pretty sure they're all dead links)
+- [File: PDF 1](https://www.casastudioacademy.com/_files/ugd/e35fdb_2cace51e7a154a7e9f0a9ee754c2183f.pdf) ✅ (Thank you Stephen)
 - [File: PDF 2](https://www.casastudioacademy.com/_files/ugd/e35fdb_9183b7bb9ff243d19c08a676f1a4ad04.pdf) ✅
 - [File: PDF 3](https://www.casastudioacademy.com/_files/ugd/e35fdb_3a5c10175a724d99bb6f368e01185455.pdf) ✅
 - [File: PDF 4](https://www.casastudioacademy.com/_files/ugd/e35fdb_2f5ca99108ce48a592d9d903722a4ec3.pdf) ✅
