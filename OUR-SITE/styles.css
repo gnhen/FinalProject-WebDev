@@ -78,6 +78,14 @@
     padding: 0;
 }
 
+.productionsBG {
+    background: url("https://static.wixstatic.com/media/e35fdb_771165bab848413198ec71b5f12f8500~mv2_d_2048_1399_s_2.jpg/v1/fill/w_1583,h_1082,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e35fdb_771165bab848413198ec71b5f12f8500~mv2_d_2048_1399_s_2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 .previousBG {
     background-color: #5d5d5d;
     background-size: cover;
