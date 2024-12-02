@@ -64,7 +64,7 @@
 			background-color: #0056b3;
 		}
 
-		.hidden-images {
+		.hidden-IMAGES {
 			display: none;
 		}
 
@@ -74,7 +74,7 @@
 		}
 
 		.galBG {
-			background: url("images/back1.png") no-repeat center center fixed;
+			background: url("IMAGES/back1.png") no-repeat center center fixed;
 			background-size: cover;
 			min-height: 100vh;
 			margin: 0;
@@ -120,22 +120,22 @@
 	<div class="gal-container">
 		<h1> Gallery Images </h1>
 		<img src="IMAGES/gal1.webp" class="gal-image">
-		<img src="images/gal2.webp" class="gal-image">
-		<img src="images/gal3.png" class="gal-image">
-		<img src="images/gal4.png" class="gal-image">
-		<div class="hidden-images">
-			<img src="images/gal5.webp" class="gal-image">
-			<img src="images/gal6.webp" class="gal-image">
-			<img src="images/gal7.webp" class="gal-image">
-			<img src="images/gal8.webp" class="gal-image">
-			<img src="images/gal9.png" class="gal-image">
-			<img src="images/gal10.webp" class="gal-image">
-			<img src="images/gal11.webp" class="gal-image">
-			<img src="images/gal12.png" class="gal-image">
-			<img src="images/gal13.webp" class="gal-image">
-			<img src="images/gal14.png" class="gal-image">
-			<img src="images/gal15.webp" class="gal-image">
-			<img src="images/gal16.png" class="gal-image">
+		<img src="IMAGES/gal2.webp" class="gal-image">
+		<img src="IMAGES/gal3.png" class="gal-image">
+		<img src="IMAGES/gal4.png" class="gal-image">
+		<div class="hidden-IMAGES">
+			<img src="IMAGES/gal5.webp" class="gal-image">
+			<img src="IMAGES/gal6.webp" class="gal-image">
+			<img src="IMAGES/gal7.webp" class="gal-image">
+			<img src="IMAGES/gal8.webp" class="gal-image">
+			<img src="IMAGES/gal9.png" class="gal-image">
+			<img src="IMAGES/gal10.webp" class="gal-image">
+			<img src="IMAGES/gal11.webp" class="gal-image">
+			<img src="IMAGES/gal12.png" class="gal-image">
+			<img src="IMAGES/gal13.webp" class="gal-image">
+			<img src="IMAGES/gal14.png" class="gal-image">
+			<img src="IMAGES/gal15.webp" class="gal-image">
+			<img src="IMAGES/gal16.png" class="gal-image">
 		</div>
 		<button class="read-more-btn" id="readMoreBtn"><u>Read More</u></button>
 	</div>
@@ -145,7 +145,7 @@
 			<div class="grid-item">
 				<p>Glimpses of Wild Party and an invitation to join us!</p><br><br><br>
 				<video width="450" height="253" controls>
-					<source src="images/gal.mp4" type="video/mp4">
+					<source src="IMAGES/gal.mp4" type="video/mp4">
 			</div>
 			<div class="grid-item">
 				<p>Insight into the Theatrical Process being used for our 2017 Summer Series productions.</p>
@@ -174,13 +174,13 @@
 	</div>
 	<script>
 		const readMoreBtn = document.getElementById('readMoreBtn');
-		const hiddenImages = document.querySelector('.hidden-images');
+		const hiddenIMAGES = document.querySelector('.hidden-IMAGES');
 		readMoreBtn.addEventListener('click', function () {
-			if (hiddenImages.style.display === 'none' || hiddenImages.style.display === '') {
-				hiddenImages.style.display = 'block';
+			if (hiddenIMAGES.style.display === 'none' || hiddenIMAGES.style.display === '') {
+				hiddenIMAGES.style.display = 'block';
 				readMoreBtn.textContent = 'Show Less'; // Change button text
 			} else {
-				hiddenImages.style.display = 'none';
+				hiddenIMAGES.style.display = 'none';
 				readMoreBtn.textContent = 'Read More'; // Change button text
 			}
 		});
