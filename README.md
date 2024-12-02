@@ -24,6 +24,7 @@ Open this page in GitHub Pages!
 - [Productions](https://www.casastudioacademy.com/productions) -- Stephen ✅
 - [Summer Series](https://www.casastudioacademy.com/summer-series) -- Leo ✅
 - [Summer Review](https://www.casastudioacademy.com/past-productions) -- Leo ✅
+- [Gallery](https://www.casastudioacademy.com/gallery)
 - [Alumni](https://www.casastudioacademy.com/alumni) -- Leo ✅
 - [Testimonials](https://www.casastudioacademy.com/testimonials) -- Leo ✅
 - [Opportunities](https://www.casastudioacademy.com/opportunities) -- Grant ✅

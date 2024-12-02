@@ -4,9 +4,11 @@ Group members: Stephen Kroeger, Grant Hendricks, Leo Langley.
 Member contributions:
 Stephen Kroeger: Created 5 pages, added images to repository, helped keep main README.md up to date
 Grant Hendricks: Downloaded Original website, created format for reworked website, built GitHub repository, Created 7 Webpages, fixed errors, created README.md and README.txt
-Leo Langley: Created 4 pages, added images to repository
+Leo Langley: Created 5 pages, added images to repository
 
 How to use:
+
+Note: Information about who did what is all on the GitHub Repository.
 
 Open the website hosted here: https://gnhen.github.io/FinalProject-WebDev/
 
