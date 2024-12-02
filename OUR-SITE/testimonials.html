@@ -1,216 +1,256 @@
 <!doctype html>
 <html>
-	<head>
-		<title> do this </title>
-		<link rel="stylesheet" href="styles.css">
-		<style>
-			.test-container {
-				justify-content: center;
-				align-items: center;
-				background: rgb(0, 0, 0, 0.9);
-				border-radius: 15px;
-				padding: 40px;
-				box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-				text-align: center;
-				margin: 20px auto;
-				max-width: 800px;
-				color: rgb(255, 255, 255);
-				
-			}
-			.left-column{
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: flex-start;
-				gap: 10px;
-				align-items: center;
-			}
-			.right-column{
-				display: flex;
-				flex-direction: column; 
-				justify-content: center;
-				gap: 10px;
-			}
-			.title {
-				text-align: center;
-				font-size: 2rem; 
-				margin-bottom: 20px; 
-			}
-			.content {
-				display: grid;
-				grid-template-columns: 50% 50%;  
-				gap: 20px; 
-			}
-			.test2-container {
-				background: rgb(0, 0, 0, 0.9);
-				border-radius: 15px;
-				padding: 40px;
-				box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-				text-align: center;
-				margin: 20px auto;
-				max-width: 800px;
-				color: rgb(255, 255, 255);
-			}
-			.flex-container {
-				display: flex;
-				flex-wrap: wrap;   
-				gap: 20px;
-				justify-content: space-between; 
-			}
-			.tester{
-				width: 650px;
-				height: 350px;
-			}
-			.flex-container {
-			    display: flex;  
-			    flex-wrap: wrap;
-			    justify-content: space-between;
-			   gap: 20px;    
-			    margin-top: 20px;
-			}
-			.box {
-			    background: rgb(0, 0, 0, 0.8);
-			    border-radius: 10px;
-			    padding: 20px;
-			    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-			    flex: 1 1 calc(50% - 20px);
-			    min-height: 150px;
-				width: 500px;
-			    display: flex;
-			    flex-direction: column;
-			    justify-content: center;
-			    align-items: center;
-				box-sizing: border-box;
-			  }
-			  .box2 {
-			    background: rgb(0, 0, 0, 0.8);
-			    border-radius: 10px;
-			    padding: 20px;
-			    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-			    flex: 1 1 calc(50% - 20px);
-			    min-height: 150px;
-				max-height:250px;
-			    display: flex;
-			    flex-direction: column;
-			    justify-content: center;
-			    align-items: center;
-			  }
-			.testBG {
-			background: url("gal6.webp") no-repeat center center fixed;
+
+<head>
+	<title>Testimonials</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="https://i.ibb.co/pnSH18j/74657588-443702409886979-4248548019609272320-n.jpg">
+	<meta property="og:image" content="https://i.ibb.co/pnSH18j/74657588-443702409886979-4248548019609272320-n.jpg">
+	<style>
+		.test-container {
+			justify-content: center;
+			align-items: center;
+			background: rgb(0, 0, 0, 0.9);
+			border-radius: 15px;
+			padding: 40px;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+			text-align: center;
+			margin: 20px auto;
+			max-width: 800px;
+			color: rgb(255, 255, 255);
+
+		}
+
+		.left-column {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+			gap: 10px;
+			align-items: center;
+		}
+
+		.right-column {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 10px;
+		}
+
+		.title {
+			text-align: center;
+			font-size: 2rem;
+			margin-bottom: 20px;
+		}
+
+		.content {
+			display: grid;
+			grid-template-columns: 50% 50%;
+			gap: 20px;
+		}
+
+		.test2-container {
+			background: rgb(0, 0, 0, 0.9);
+			border-radius: 15px;
+			padding: 40px;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+			text-align: center;
+			margin: 20px auto;
+			max-width: 800px;
+			color: rgb(255, 255, 255);
+		}
+
+		.flex-container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 20px;
+			justify-content: space-between;
+		}
+
+		.tester {
+			width: 650px;
+			height: 350px;
+		}
+
+		.flex-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			gap: 20px;
+			margin-top: 20px;
+		}
+
+		.box {
+			background: rgb(0, 0, 0, 0.8);
+			border-radius: 10px;
+			padding: 20px;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+			flex: 1 1 calc(50% - 20px);
+			min-height: 150px;
+			width: 500px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			box-sizing: border-box;
+		}
+
+		.box2 {
+			background: rgb(0, 0, 0, 0.8);
+			border-radius: 10px;
+			padding: 20px;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+			flex: 1 1 calc(50% - 20px);
+			min-height: 150px;
+			max-height: 250px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.testBG {
+			background: url("images/gal6.webp") no-repeat center center fixed;
 			background-size: cover;
 			min-height: 100vh;
 			margin: 0;
 			padding: 0;
 		}
-		</style>
-	</head>
-	<body class = "testBG">
-		<header class="header dm-serif-display-regular">
-        Cincinnati Actor's Studio & Academy<br>
-        <font size="+2" class="dm-serif-display-regular-italic">"Creating Dialogue, Creating Change"</font>
-        <nav class="navbar">
-            <ul class="nav-menu">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="productions.html">PRODUCTIONS</a></li>
-                <li><a href="#">GALLERY</a></li>
-                <li><a href="support.html">SUPPORT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">MORE</a>
-                    <div class="dropdown-content">
-                        <a href="opportunities.html">OPPORTUNITIES</a>
-                        <a href="staff.html">STAFF</a>
-                        <a href="studio.html">STUDIO</a>
-                        <a href="summer-seminar.html">SUMMER SEMINAR</a>
-                        <a href="#">SUMMER SERIES</a>
-                        <a href="#">PAST PRODUCTIONS</a>
-                        <a href="#">TESTIMONIALS</a>
-                        <a href="summer-seminar-registration.html">SUMMER SEMINAR REGISTRATION</a>
-                        <a href="studio-auditions.html">STUDIO - AUDITION APPLICATION</a>
-                        <a href="previous-advertisors.html">PREVIOUS ADVERTISERS</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </header>
-	<div class = "test-container">
-	<h2>Testimonial </h2>
-		<div class = "content">
-			<div class = "left-column">
-			<div class = "test-container">
-				<p><b><u>What are Studio Graduates Saying?</u></b></p>
-				<p>"At Playwrights (NYU), we are doing a Shakespeare Workshop, and I didn’t realize how little people in my studio at NYU know about Shakespeare. 
-					Thank you for all of the Shakespeare training that you do at CASA!"</p>
-				<p>"Thank you for teaching me how to stand up for myself and breathe my own air…Studio has sparked a self-awareness inside me and it is the most important lesson I have ever learned."</p>
-				<p>"So my first day of classes was today. (WVU) Thank you so much for everything. I feel so smart here!! Hahaha they’re asking us to pick out
-					10 plays to read to find good monologues and scenes and I was like, I KNOW EXACTLY WHAT TO GET!!! ☺"</p>
-				<p>"Thank you for pushing me. Thank you for your unconditional support. I deserve to be here at DePaul because I worked hard. I worked hard
-					because of you! Thank you!"</p>
+	</style>
+</head>
+
+<body class="testBG">
+	<header class="header dm-serif-display-regular">
+		Cincinnati Actor's Studio & Academy<br>
+		<font size="+2" class="dm-serif-display-regular-italic">"Creating Dialogue, Creating Change"</font>
+		<nav class="navbar">
+			<ul class="nav-menu">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="productions.html">PRODUCTIONS</a></li>
+				<li><a href="support.html">SUPPORT</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropbtn">MORE</a>
+					<div class="dropdown-content">
+						<a href="opportunities.html">OPPORTUNITIES</a>
+						<a href="staff.html">STAFF</a>
+						<a href="studio.html">STUDIO</a>
+						<a href="summer-seminar.html">SUMMER SEMINAR</a>
+						<a href="summer_review.html">SUMMER REVIEW</a>
+						<a href="summer_series.html">SUMMER SERIES</a>
+						<a href="testimonials.html">TESTIMONIALS</a>
+						<a href="summer-seminar-registration.html">SUMMER SEMINAR REGISTRATION</a>
+						<a href="studio-auditions.html">STUDIO - AUDITION APPLICATION</a>
+						<a href="previous-advertisors.html">PREVIOUS ADVERTISERS</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div class="test-container">
+		<h2>Testimonial </h2>
+		<div class="content">
+			<div class="left-column">
+				<div class="test-container">
+					<p><b><u>What are Studio Graduates Saying?</u></b></p>
+					<p>"At Playwrights (NYU), we are doing a Shakespeare Workshop, and I didn’t realize how little
+						people in my studio at NYU know about Shakespeare.
+						Thank you for all of the Shakespeare training that you do at CASA!"</p>
+					<p>"Thank you for teaching me how to stand up for myself and breathe my own air…Studio has sparked a
+						self-awareness inside me and it is the most important lesson I have ever learned."</p>
+					<p>"So my first day of classes was today. (WVU) Thank you so much for everything. I feel so smart
+						here!! Hahaha they’re asking us to pick out
+						10 plays to read to find good monologues and scenes and I was like, I KNOW EXACTLY WHAT TO
+						GET!!! ☺"</p>
+					<p>"Thank you for pushing me. Thank you for your unconditional support. I deserve to be here at
+						DePaul because I worked hard. I worked hard
+						because of you! Thank you!"</p>
 				</div>
 			</div>
-			<div class = "right-column">
-				<div class = "test-container">
-				<p style = "padding-bottom: 20px"><b><u>What Are the Parents saying?</u></b></p>
-				<p>"To become the best actor that one can be, you must know yourself. I suspect these lessons were as important as the fundamentals of acting that the students received."</p>
-				<p style = "padding-bottom: 20px">"You have put my daughter on solid ground. I am excited for her future."</p>
+			<div class="right-column">
+				<div class="test-container">
+					<p style="padding-bottom: 20px"><b><u>What Are the Parents saying?</u></b></p>
+					<p>"To become the best actor that one can be, you must know yourself. I suspect these lessons were
+						as important as the fundamentals of acting that the students received."</p>
+					<p style="padding-bottom: 20px">"You have put my daughter on solid ground. I am excited for her
+						future."</p>
 				</div>
 				<br>
-				<div class = "test-container">
-				<p><b><u>What Are Colleges Saying?</u></b></p>
-				<p>"You trained at Studio? Oooh, Very promising!" (Otterbein)</p>
-				<p>"We want more Studio students in our program!" (Roosevelt)</p>
+				<div class="test-container">
+					<p><b><u>What Are Colleges Saying?</u></b></p>
+					<p>"You trained at Studio? Oooh, Very promising!" (Otterbein)</p>
+					<p>"We want more Studio students in our program!" (Roosevelt)</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class = "test2-container">
+	<div class="test2-container">
 		<h2> Other Testimonials </h2>
-		<div class = "flex-container">
-		<div class = "box">
-			<p>"The High School Acting Studio, as a part of the Cincinnati Actors Studio & Academy, is one of THE best acting programs that is offered in Cincinnati. This program has more information and amazing training than any 
-			program offered in Cincinnati, and possibly the Midwest. This simply is the best program. As further proof that it is, I recently went to a very selective summer program at NYU for drama. I wasn't sure at first what to expect, 
-			but I soon realized that I knew so much more than many of the other students in my group. You learn so many great acting techniques such as Meisner (Woot Woot!), Adler, Stanislavski, Chekhov, Raza Boxes 
-			and so many more techniques that many theater colleges focus on and teach.<br>
-			This training will give you such an advantage should you choose to pursue a career in theater. As a result, I have gotten very good feedback from teachers at NYU, some of whom even mentioned that they would love to 
-			have me at their school. And it is all because of doing this Studio program. I am not exaggerating when I say that the High School Acting Studio is the best studio in the city."<br>
-			-- Ben Langhorst<br>
-			Graduate of the High School Acting Studio<br>
-			Graduate of NYU-Tisch<br></p>
+		<div class="flex-container">
+			<div class="box">
+				<p>"The High School Acting Studio, as a part of the Cincinnati Actors Studio & Academy, is one of THE
+					best acting programs that is offered in Cincinnati. This program has more information and amazing
+					training than any
+					program offered in Cincinnati, and possibly the Midwest. This simply is the best program. As further
+					proof that it is, I recently went to a very selective summer program at NYU for drama. I wasn't sure
+					at first what to expect,
+					but I soon realized that I knew so much more than many of the other students in my group. You learn
+					so many great acting techniques such as Meisner (Woot Woot!), Adler, Stanislavski, Chekhov, Raza
+					Boxes
+					and so many more techniques that many theater colleges focus on and teach.<br>
+					This training will give you such an advantage should you choose to pursue a career in theater. As a
+					result, I have gotten very good feedback from teachers at NYU, some of whom even mentioned that they
+					would love to
+					have me at their school. And it is all because of doing this Studio program. I am not exaggerating
+					when I say that the High School Acting Studio is the best studio in the city."<br>
+					-- Ben Langhorst<br>
+					Graduate of the High School Acting Studio<br>
+					Graduate of NYU-Tisch<br></p>
 			</div>
-			<div class = "box">
-			<p>"My name is Cayla Black and graduated from the University of Cincinnati, with a major in criminal justice. I was in the acting studio with Gina for two years. I found that even though I was not majoring in acting, 
-			studio helped me in everyday life. At school when we had to do fake interviews for future jobs, I felt I was far ahead of the other students and I owe most of that to Studio. Studio helped me learn better personal 
-			skills and present myself well in front of the interviewers.<br>
-			Also, being in criminal justice, I had to take a hostage negotiations class, where we were put in situations where we needed to talk to a hostage taker and think very quickly on our feet. 
-			Having classes such as improv and many others helped me to be able to do well in these situations. Acting Studio has helped me in school and work, but the most important thing I have gained 
-			is confidence in myself. It has helped me find who I am and be confident, not only in acting but in everything I do. I have also met amazing new people who became great friends, and I could 
-			never get this experience anywhere else."<br>
-			-- Cayla Black<br>
-			Graduate of High School Acting Studio<br></p>
+			<div class="box">
+				<p>"My name is Cayla Black and graduated from the University of Cincinnati, with a major in criminal
+					justice. I was in the acting studio with Gina for two years. I found that even though I was not
+					majoring in acting,
+					studio helped me in everyday life. At school when we had to do fake interviews for future jobs, I
+					felt I was far ahead of the other students and I owe most of that to Studio. Studio helped me learn
+					better personal
+					skills and present myself well in front of the interviewers.<br>
+					Also, being in criminal justice, I had to take a hostage negotiations class, where we were put in
+					situations where we needed to talk to a hostage taker and think very quickly on our feet.
+					Having classes such as improv and many others helped me to be able to do well in these situations.
+					Acting Studio has helped me in school and work, but the most important thing I have gained
+					is confidence in myself. It has helped me find who I am and be confident, not only in acting but in
+					everything I do. I have also met amazing new people who became great friends, and I could
+					never get this experience anywhere else."<br>
+					-- Cayla Black<br>
+					Graduate of High School Acting Studio<br></p>
 			</div>
-			<div class = "box2">
-			<p>I attended I Am An Emotional Creature, and I wanted to promptly to thank you for putting on such an incredible show. This was the first CASA performance I have ever seen, and I was absolutely blown away. 
-			The intimate setting was perfect for the show and truly added to the experience. The space you have created for these talented performers is something I know they cherish and it is visible from the moment you walk in. 
-			As I watched each monologue, song, or dance, I was brought to tears by the raw emotion and pureness of it all. As a high school girl entering my senior year, I was able to connect with so many of the 
-			sentiments shared in the pieces, and the two and a half hours I spent in the audience was by far more therapeutic than talking to any of the shrinks I have seen. The issues presented were so real and so 
-			perfectly delivered; your students are unbelievably talented. I know for a fact that I will never forget this incredible piece, no matter how many other shows I attend or plays I read. Thank you again for 
-			putting on such a meaningful show; it truly was magical.<br>
-			--Caroline C.</p>
+			<div class="box2">
+				<p>I attended I Am An Emotional Creature, and I wanted to promptly to thank you for putting on such an
+					incredible show. This was the first CASA performance I have ever seen, and I was absolutely blown
+					away.
+					The intimate setting was perfect for the show and truly added to the experience. The space you have
+					created for these talented performers is something I know they cherish and it is visible from the
+					moment you walk in.
+					As I watched each monologue, song, or dance, I was brought to tears by the raw emotion and pureness
+					of it all. As a high school girl entering my senior year, I was able to connect with so many of the
+					sentiments shared in the pieces, and the two and a half hours I spent in the audience was by far
+					more therapeutic than talking to any of the shrinks I have seen. The issues presented were so real
+					and so
+					perfectly delivered; your students are unbelievably talented. I know for a fact that I will never
+					forget this incredible piece, no matter how many other shows I attend or plays I read. Thank you
+					again for
+					putting on such a meaningful show; it truly was magical.<br>
+					--Caroline C.</p>
 			</div>
-			<div class = "box">
-			<p>"What an amazing way you shared the inner thinking and "feelings" of the young chaacter [in <i>A Night of Curious Incidents</i>] ...truly insightful and beautiful...[The cast] did such a beautiful and amazing job depicting
-			the inner thoughts, feelings and emotions of someone on the spectrium and those they love... Thank you so very much again."<br>
-			-- Barbara Thomas<br>
-			Director of the Tall Institute, Cincinnati, OH</p>
+			<div class="box">
+				<p>"What an amazing way you shared the inner thinking and "feelings" of the young chaacter [in <i>A
+						Night of Curious Incidents</i>] ...truly insightful and beautiful...[The cast] did such a
+					beautiful and amazing job depicting
+					the inner thoughts, feelings and emotions of someone on the spectrium and those they love... Thank
+					you so very much again."<br>
+					-- Barbara Thomas<br>
+					Director of the Tall Institute, Cincinnati, OH</p>
 			</div>
 		</div>
-
- 
-		
-			
-			
-		
-	
-	
-	
