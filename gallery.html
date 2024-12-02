@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Shablang </title>
+		<style>
+		.gal-container {
+			justify-content: center;
+			align-items: center;
+			background: rgb(0, 0, 0, 0.9);
+			border-radius: 15px;
+			padding: 40px;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+			text-align: center;
+			margin: 20px auto;
+			max-width: 1050px;
+			color: rgb(255, 255, 255);
+		}
+		.gal-image{
+			width: 210px;
+			height: 140px;
+			padding: 20px;
+			border-radius: 15px;
+		}
+		.flex-container{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.grid-container{
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 20px; 	
+			margin-top: 20px; 
+		}
+		.grid-item{
+			text-align: center;
+			border-radius: 15px;
+			background: rgba(255, 255, 255, 0.1); 
+		}
+		.extra{
+			width: 210px;
+			height: 140px;
+			padding: 20px;
+			border-radius: 15px;
+		}
+		
+		.read-more-btn {
+			margin-top: 20px;
+			padding: 10px 20px;
+			color: white;
+			background-color: black;
+			border: none;
+			cursor: pointer;
+			border-radius: 5px;
+		}
+		.read-more-btn:hover {
+			background-color: #0056b3;
+		}
+		.hidden-images {
+			display: none;
+		}
+		.odd-image{
+			width: 210px;
+			height: 140px;
+		}
+		.galBG {
+			background: url("back1.png") no-repeat center center fixed;
+			background-size: cover;
+			min-height: 100vh;
+			margin: 0;
+			padding: 0;
+		}
+		</style>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body class = "galBG">
+		<header class="header dm-serif-display-regular">
+        Cincinnati Actor's Studio & Academy<br>
+        <font size="+2" class="dm-serif-display-regular-italic">"Creating Dialogue, Creating Change"</font>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="productions.html">PRODUCTIONS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="support.html">SUPPORT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">MORE</a>
+                    <div class="dropdown-content">
+                        <a href="opportunities.html">OPPORTUNITIES</a>
+                        <a href="staff.html">STAFF</a>
+                        <a href="studio.html">STUDIO</a>
+                        <a href="summer-seminar.html">SUMMER SEMINAR</a>
+                        <a href="summer_series">SUMMER SERIES</a>
+						<a href="summer_review">SUMMER REVIEW</a>
+                        <a href="past_production">PAST PRODUCTIONS</a>
+                        <a href="testimonials">TESTIMONIALS</a>
+                        <a href="summer-seminar-registration.html">SUMMER SEMINAR REGISTRATION</a>
+                        <a href="studio-auditions.html">STUDIO - AUDITION APPLICATION</a>
+                        <a href="previous-advertisors.html">PREVIOUS ADVERTISERS</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+	<div class = "gal-container">
+	<h1> Gallery Images </h1>
+		<img src = "images/gal1.webp" class = "gal-image">
+		<img src = "images/gal2.webp" class = "gal-image">
+		<img src = "images/gal3.png" class = "gal-image">
+		<img src = "images/gal4.png" class = "gal-image">
+		<div class = "hidden-images">
+			<img src = "images/gal5.webp" class = "gal-image">
+			<img src = "images/gal6.webp" class = "gal-image">
+			<img src = "images/gal7.webp" class = "gal-image">
+			<img src = "images/gal8.webp" class = "gal-image">
+			<img src = "images/gal9.png" class = "gal-image">
+			<img src = "images/gal10.webp" class = "gal-image">
+			<img src = "images/gal11.webp" class = "gal-image">
+			<img src = "images/gal12.png" class = "gal-image">
+			<img src = "images/gal13.webp" class = "gal-image">
+			<img src = "images/gal14.png" class = "gal-image">
+			<img src = "images/gal15.webp" class = "gal-image">
+			<img src = "images/gal16.png" class = "gal-image">
+		</div>
+		<button class = "read-more-btn"  id = "readMoreBtn"><u>Read More</u></button>
+	</div>
+	<div class = "gal-container">
+		<h1> Gallery Videos </h1>
+		<div class = "grid-container">
+			<div class = "grid-item">
+				<p>Glimpses of Wild Party and an invitation to join us!</p><br><br><br>
+				<video width="450" height="253" controls>
+					<source src="gal.mp4" type="video/mp4">
+			</div>
+			<div class = "grid-item">
+				<p>Insight into the Theatrical Process being used for our 2017 Summer Series productions.</p>
+				<p>Interview of Matt Berman, by Lily Adams.</p>
+				<iframe width="450" height="253" src="https://www.youtube.com/embed/JDfZKOSyQko?si=jy-kaTi2_mZRjpzU" title="YouTube video player" 
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+				referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+			<div class = "grid-item">
+				<iframe width="450" height="253" src="https://www.youtube.com/embed/kRHUzrqWEXA?si=dcosVFlzm9BbH96l" title="YouTube video player" frameborder="0" 
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+				referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<p>Sneak peek into the process behind the 2017 Summer Series' production of Love's Labour's Lost: A Musical Adventure</p>
+			</div>
+			<div class = "grid-item">
+				<iframe width="450" height="253" src="https://www.youtube.com/embed/A0ojQ5EvVig?si=kqNF6BITQRkCYkf4" title="YouTube video player" 
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+				referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<p>Brief clip of our 2017 Summer Series' production of Forbidden Broadway</p>
+			</div>
+		</div>
+	</div>
+	<script>
+		const readMoreBtn = document.getElementById('readMoreBtn');
+		const hiddenImages = document.querySelector('.hidden-images');
+		readMoreBtn.addEventListener('click', function() {
+			if (hiddenImages.style.display === 'none' || hiddenImages.style.display === '') {
+				hiddenImages.style.display = 'block';
+				readMoreBtn.textContent = 'Show Less'; // Change button text
+			} else {
+				hiddenImages.style.display = 'none';
+				readMoreBtn.textContent = 'Read More'; // Change button text
+			}
+		});
+	</script>
+	</body>
+</html>
